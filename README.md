@@ -1,5 +1,7 @@
+### short-url采用JAVA语言框架springboot 进行短域名服务的web项目。 
+##### 缓存用redis 存储用mysql 分表查询框架用sharding-jdbc
 ```
- short-url采用JAVA语言框架springboot 进行短域名服务的web项目。
+ 
  1)、长地址转换成短地址
 	POST：http://${host}/generateShortUrl  
 	参数：originUrl  
