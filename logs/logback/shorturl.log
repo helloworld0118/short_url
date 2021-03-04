@@ -1,0 +1,834 @@
+2021-01-18 15:52:23.751 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 55 ] - Starting ShortUrlApplication using Java 1.8.0_181 on helloworld-2.local with PID 75358 (/Users/wangbing/Documents/train/train/target/classes started by wangbing in /Users/wangbing/Documents/train/train)
+2021-01-18 15:52:23.758 [ main ] - [ DEBUG ] [ com.wb.shorturl.ShortUrlApplication : 56 ] - Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-18 15:52:23.759 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 660 ] - No active profile set, falling back to default profiles: default
+2021-01-18 15:53:03.047 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 55 ] - Starting ShortUrlApplication using Java 1.8.0_181 on helloworld-2.local with PID 75426 (/Users/wangbing/Documents/train/train/target/classes started by wangbing in /Users/wangbing/Documents/train/train)
+2021-01-18 15:53:03.050 [ main ] - [ DEBUG ] [ com.wb.shorturl.ShortUrlApplication : 56 ] - Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-18 15:53:03.050 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 660 ] - No active profile set, falling back to default profiles: default
+2021-01-18 15:53:04.943 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-82"]
+2021-01-18 15:53:04.944 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-01-18 15:53:04.944 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-18 15:53:05.044 [ main ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/short_url] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-01-18 15:53:06.159 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1003 ] - {dataSource-1} inited
+2021-01-18 15:53:07.067 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 431 ] - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.wb.shorturl.entity.ShortUrl"
+2021-01-18 15:53:08.093 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-82"]
+2021-01-18 15:53:08.144 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 61 ] - Started ShortUrlApplication in 5.708 seconds (JVM running for 6.699)
+2021-01-18 15:53:08.432 [ RMI TCP Connection(3)-127.0.0.1 ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/short_url] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-18 15:53:34.767 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1965 ] - {dataSource-1} closing ...
+2021-01-18 15:53:34.775 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 2037 ] - {dataSource-1} closed
+2021-01-18 15:53:37.958 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 55 ] - Starting ShortUrlApplication using Java 1.8.0_181 on helloworld-2.local with PID 75471 (/Users/wangbing/Documents/train/train/target/classes started by wangbing in /Users/wangbing/Documents/train/train)
+2021-01-18 15:53:37.961 [ main ] - [ DEBUG ] [ com.wb.shorturl.ShortUrlApplication : 56 ] - Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-18 15:53:37.962 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 660 ] - No active profile set, falling back to default profiles: default
+2021-01-18 15:53:39.885 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-82"]
+2021-01-18 15:53:39.886 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-01-18 15:53:39.886 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-18 15:53:39.955 [ main ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/short_url] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-01-18 15:53:40.735 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1003 ] - {dataSource-1} inited
+2021-01-18 15:53:41.485 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 431 ] - This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.wb.shorturl.entity.ShortUrl"
+2021-01-18 15:53:42.268 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-82"]
+2021-01-18 15:53:42.320 [ main ] - [ INFO  ] [ com.wb.shorturl.ShortUrlApplication : 61 ] - Started ShortUrlApplication in 4.994 seconds (JVM running for 6.696)
+2021-01-18 15:53:42.406 [ RMI TCP Connection(2)-127.0.0.1 ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/short_url] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-18 15:54:19.557 [ http-nio-82-exec-1 ] - [ DEBUG ] [ com.wb.shorturl.mapper.ShortUrlMapper.selectOne : 137 ] - ==>  Preparing: SELECT id,short_code,origin_url,origin_url_hash,create_timestamp FROM short_url WHERE (short_code = ?)
+2021-01-18 15:54:19.581 [ http-nio-82-exec-1 ] - [ DEBUG ] [ com.wb.shorturl.mapper.ShortUrlMapper.selectOne : 137 ] - ==> Parameters: aaaasdf(String)
+2021-01-18 15:54:20.080 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Rule Type: sharding
+2021-01-18 15:54:20.081 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Logic SQL: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url 
+ 
+ WHERE (short_code = ?)
+2021-01-18 15:54:20.081 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=short_url, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=short_url, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url 
+ 
+ WHERE (short_code = ?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=64, groupByLastIndex=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=short_code, alias=Optional.absent()), CommonSelectItem(expression=origin_url, alias=Optional.absent()), CommonSelectItem(expression=origin_url_hash, alias=Optional.absent()), CommonSelectItem(expression=create_timestamp, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+2021-01-18 15:54:20.082 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Actual SQL: master ::: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url0 
+ 
+ WHERE (short_code = ?) ::: [aaaasdf]
+2021-01-18 15:54:20.082 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Actual SQL: master ::: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url1 
+ 
+ WHERE (short_code = ?) ::: [aaaasdf]
+2021-01-18 15:54:20.082 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Actual SQL: master ::: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url2 
+ 
+ WHERE (short_code = ?) ::: [aaaasdf]
+2021-01-18 15:54:20.082 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Actual SQL: master ::: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url3 
+ 
+ WHERE (short_code = ?) ::: [aaaasdf]
+2021-01-18 15:54:20.083 [ http-nio-82-exec-1 ] - [ INFO  ] [ ShardingSphere-SQL : 89 ] - Actual SQL: master ::: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url4 
+ 
+ WHERE (short_code = ?) ::: [aaaasdf]
+2021-01-18 15:54:20.103 [ http-nio-82-exec-1 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidPooledStatement : 368 ] - CommunicationsException, druid version 1.1.17, jdbcUrl : jdbc:mysql://182.92.185.140:3306/short_url?allowPublicKeyRetrieval=true&serverTimezone=UTC&useSSL=false&autoReconnect=true, testWhileIdle true, idle millis 38723, minIdle 0, poolingCount 0, timeBetweenEvictionRunsMillis 60000, lastValidIdleMillis 38723, driver com.mysql.jdbc.Driver, exceptionSorter com.alibaba.druid.pool.vendor.MySqlExceptionSorter
+2021-01-18 15:54:20.105 [ http-nio-82-exec-1 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 1794 ] - discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.shardingsphere.shardingjdbc.executor.SQLExecuteCallbackFactory$2.executeSQL(SQLExecuteCallbackFactory.java:65)
+	at org.apache.shardingsphere.shardingjdbc.executor.SQLExecuteCallbackFactory$2.executeSQL(SQLExecuteCallbackFactory.java:61)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteCallback.execute0(SQLExecuteCallback.java:69)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteCallback.execute(SQLExecuteCallback.java:58)
+	at org.apache.shardingsphere.core.execute.ShardingExecuteEngine.syncGroupExecute(ShardingExecuteEngine.java:126)
+	at org.apache.shardingsphere.core.execute.ShardingExecuteEngine.parallelExecute(ShardingExecuteEngine.java:103)
+	at org.apache.shardingsphere.core.execute.ShardingExecuteEngine.groupExecute(ShardingExecuteEngine.java:83)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteTemplate.executeGroup(SQLExecuteTemplate.java:73)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteTemplate.executeGroup(SQLExecuteTemplate.java:56)
+	at org.apache.shardingsphere.shardingjdbc.executor.AbstractStatementExecutor.executeCallback(AbstractStatementExecutor.java:128)
+	at org.apache.shardingsphere.shardingjdbc.executor.PreparedStatementExecutor.execute(PreparedStatementExecutor.java:156)
+	at org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.ShardingPreparedStatement.execute(ShardingPreparedStatement.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy119.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:69)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:92)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy88.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:90)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy90.selectOne(Unknown Source)
+	at com.wb.shorturl.service.impl.ShortUrlServiceImpl.getOriginUrlByShortCode(ShortUrlServiceImpl.java:69)
+	at com.wb.shorturl.service.impl.ShortUrlServiceImpl$$FastClassBySpringCGLIB$$7b96c52.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.wb.shorturl.service.impl.ShortUrlServiceImpl$$EnhancerBySpringCGLIB$$7ec0322f.getOriginUrlByShortCode(<generated>)
+	at com.wb.shorturl.controller.ShortUrlController.shortCodeRedirect(ShortUrlController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:544)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:708)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:647)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:946)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 101 common frames omitted
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	... 106 common frames omitted
+2021-01-18 15:54:20.112 [ http-nio-82-exec-1 ] - [ ERROR ] [ c.w.shorturl.common.exception.BaseExceptionHandler : 28 ] - 捕获到Exception异常
+org.springframework.dao.RecoverableDataAccessException: 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in com/wb/shorturl/mapper/ShortUrlMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,short_code,origin_url,origin_url_hash,create_timestamp  FROM short_url     WHERE (short_code = ?)
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+; The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:100)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy88.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:90)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy90.selectOne(Unknown Source)
+	at com.wb.shorturl.service.impl.ShortUrlServiceImpl.getOriginUrlByShortCode(ShortUrlServiceImpl.java:69)
+	at com.wb.shorturl.service.impl.ShortUrlServiceImpl$$FastClassBySpringCGLIB$$7b96c52.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.wb.shorturl.service.impl.ShortUrlServiceImpl$$EnhancerBySpringCGLIB$$7ec0322f.getOriginUrlByShortCode(<generated>)
+	at com.wb.shorturl.controller.ShortUrlController.shortCodeRedirect(ShortUrlController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at org.apache.shardingsphere.shardingjdbc.executor.SQLExecuteCallbackFactory$2.executeSQL(SQLExecuteCallbackFactory.java:65)
+	at org.apache.shardingsphere.shardingjdbc.executor.SQLExecuteCallbackFactory$2.executeSQL(SQLExecuteCallbackFactory.java:61)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteCallback.execute0(SQLExecuteCallback.java:69)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteCallback.execute(SQLExecuteCallback.java:58)
+	at org.apache.shardingsphere.core.execute.ShardingExecuteEngine.syncGroupExecute(ShardingExecuteEngine.java:126)
+	at org.apache.shardingsphere.core.execute.ShardingExecuteEngine.parallelExecute(ShardingExecuteEngine.java:103)
+	at org.apache.shardingsphere.core.execute.ShardingExecuteEngine.groupExecute(ShardingExecuteEngine.java:83)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteTemplate.executeGroup(SQLExecuteTemplate.java:73)
+	at org.apache.shardingsphere.core.execute.sql.execute.SQLExecuteTemplate.executeGroup(SQLExecuteTemplate.java:56)
+	at org.apache.shardingsphere.shardingjdbc.executor.AbstractStatementExecutor.executeCallback(AbstractStatementExecutor.java:128)
+	at org.apache.shardingsphere.shardingjdbc.executor.PreparedStatementExecutor.execute(PreparedStatementExecutor.java:156)
+	at org.apache.shardingsphere.shardingjdbc.jdbc.core.statement.ShardingPreparedStatement.execute(ShardingPreparedStatement.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy119.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:69)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:92)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 66 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 38,721 milliseconds ago. The last packet sent successfully to the server was 38,733 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:544)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:708)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:647)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:946)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1075)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:930)
+	... 101 common frames omitted
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	... 106 common frames omitted
+2021-01-18 16:32:05.362 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost/127.0.0.1:6379
+2021-01-18 16:32:05.362 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost/127.0.0.1:6379
+2021-01-18 16:32:05.371 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:05.371 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:14.456 [ lettuce-eventExecutorLoop-1-1 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:32:14.456 [ lettuce-eventExecutorLoop-1-4 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:32:14.461 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:14.461 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:22.657 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:32:22.657 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:32:22.659 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:22.659 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:39.058 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:32:39.058 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:32:39.061 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:32:39.061 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:33:09.162 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:33:09.162 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:33:09.165 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:33:09.165 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:33:39.261 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:33:39.261 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:33:39.263 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:33:39.263 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:34:09.361 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:34:09.361 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:34:09.364 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:34:09.364 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:34:39.459 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:34:39.459 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:34:39.463 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:34:39.463 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:35:09.565 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:35:09.565 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:35:09.568 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:35:09.568 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:35:39.661 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:35:39.661 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:35:39.665 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:35:39.665 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:36:09.761 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:36:09.761 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:36:09.764 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:36:09.767 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:36:39.862 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:36:39.862 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:36:39.865 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:36:39.865 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:37:09.963 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:37:09.963 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:37:09.968 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:37:09.968 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:37:40.064 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:37:40.064 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:37:40.071 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:37:40.072 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:38:10.164 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:38:10.164 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:38:10.167 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:38:10.167 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:38:40.170 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:38:40.170 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:38:40.174 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:38:40.174 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:39:10.271 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:39:10.271 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:39:10.275 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:39:10.275 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:39:40.376 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:39:40.376 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:39:40.379 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:39:40.379 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:40:10.472 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:40:10.472 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:40:10.477 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:40:10.477 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:40:40.571 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:40:40.571 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:40:40.574 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:40:40.574 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:41:10.676 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:41:10.676 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:41:10.679 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:41:10.679 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:41:40.774 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:41:40.774 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:41:40.776 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:41:40.776 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:42:10.875 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:42:10.875 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:42:10.879 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:42:10.879 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:42:40.974 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:42:40.974 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:42:40.977 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:42:40.977 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:43:11.079 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:43:11.079 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:43:11.083 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:43:11.083 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:43:41.184 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:43:41.184 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:43:41.230 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:43:41.236 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:44:11.278 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:44:11.278 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:44:11.281 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:44:11.281 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:44:41.379 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:44:41.379 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:44:41.382 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:44:41.382 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:45:11.477 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:45:11.477 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:45:11.479 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:45:11.479 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:45:41.579 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:45:41.579 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:45:41.582 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:45:41.582 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:46:11.681 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:46:11.681 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:46:11.684 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:46:11.684 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:46:41.777 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:46:41.777 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:46:41.781 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:46:41.781 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:47:11.881 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:47:11.881 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:47:11.886 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:47:11.886 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:47:44.067 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:47:44.067 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:47:44.069 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:47:44.069 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:52:08.076 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:52:08.076 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:52:08.079 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:52:08.079 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:52:38.176 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:52:38.176 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:52:38.179 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:52:38.179 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:53:08.277 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:53:08.277 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:53:08.280 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:53:08.280 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:53:38.376 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:53:38.376 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:53:38.378 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:53:38.378 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:54:08.477 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:54:08.477 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:54:08.481 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:54:08.481 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:54:38.579 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:54:38.579 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:54:38.584 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:54:38.584 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:55:08.682 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:55:08.682 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:55:08.684 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:55:08.684 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:55:38.782 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:55:38.782 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:55:38.785 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:55:38.785 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:56:08.883 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:56:08.883 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:56:08.886 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:56:08.886 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:56:38.978 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:56:38.978 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:56:38.981 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:56:38.981 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:57:09.084 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:57:09.084 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:57:09.087 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:57:09.087 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:57:39.184 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:57:39.184 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:57:39.187 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:57:39.187 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:58:09.280 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:58:09.280 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:58:09.282 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:58:09.282 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:58:39.382 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:58:39.382 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:58:39.384 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:58:39.384 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:59:09.481 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:59:09.481 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:59:09.484 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:59:09.484 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:59:39.586 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:59:39.586 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 16:59:39.630 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 16:59:39.630 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:00:09.682 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:00:09.682 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:00:09.685 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:00:09.685 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:00:39.783 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:00:39.783 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:00:39.786 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:00:39.786 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:01:09.885 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:01:09.885 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:01:09.887 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:01:09.887 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:01:39.988 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:01:39.988 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:01:39.991 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:01:39.991 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:02:44.464 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:02:44.464 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:02:44.606 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:02:44.606 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:03:15.005 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:03:15.005 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:03:15.008 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:03:15.008 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:03:45.095 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:03:45.095 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:03:45.098 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:03:45.098 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:04:15.195 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:04:15.195 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:04:15.198 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:04:15.198 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:04:45.295 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:04:45.295 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:04:45.298 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:04:45.298 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:05:15.396 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:05:15.396 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:05:15.399 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:05:15.400 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:05:58.878 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:05:58.878 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:05:58.880 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:05:58.880 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:06:29.823 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:06:29.823 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:06:29.827 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:06:29.827 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:06:59.928 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:06:59.928 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:06:59.930 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:06:59.930 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:07:30.029 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:07:30.029 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:07:30.032 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:07:30.032 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:08:00.130 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:08:00.130 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:08:00.132 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:08:00.132 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:08:30.225 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:08:30.225 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:08:30.227 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:08:30.227 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:09:00.328 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:09:00.328 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:09:00.346 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:09:00.352 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:09:30.426 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:09:30.426 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:09:30.430 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:09:30.430 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:10:00.531 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:10:00.531 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:10:00.534 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:10:00.534 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:10:30.627 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:10:30.627 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:10:30.630 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:10:30.630 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:11:00.730 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:11:00.730 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:11:00.732 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:11:00.732 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:11:30.830 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:11:30.830 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:11:30.836 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:11:30.836 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:12:00.932 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:12:00.932 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:12:00.935 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:12:00.935 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:12:31.031 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:12:31.031 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:12:31.035 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:12:31.035 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:13:01.133 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:13:01.133 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:13:01.136 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:13:01.136 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:13:31.232 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:13:31.232 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:13:31.234 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:13:31.234 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:14:01.332 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:14:01.332 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:14:01.333 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:14:01.333 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:14:31.436 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:14:31.436 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:14:31.438 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:14:31.438 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:15:01.534 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:15:01.534 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:15:01.542 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:15:01.542 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:15:31.634 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:15:31.634 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:15:31.637 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:15:31.637 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:16:01.738 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:16:01.738 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:16:01.741 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:16:01.741 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:16:31.837 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:16:31.837 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:16:31.839 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:16:31.839 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:17:01.938 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:17:01.938 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:17:01.943 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:17:01.943 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:17:32.037 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:17:32.037 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:17:32.041 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:17:32.041 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:18:02.136 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:18:02.136 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:18:02.138 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:18:02.138 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:18:32.239 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:18:32.240 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:18:32.242 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:18:32.242 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:19:02.337 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:19:02.337 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:19:02.340 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:19:02.340 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:19:32.436 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:19:32.436 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:19:32.438 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:19:32.438 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:20:02.537 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:20:02.537 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:20:02.541 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:20:02.541 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:20:32.645 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:20:32.645 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:20:32.652 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:20:32.652 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:21:02.739 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:21:02.739 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:21:02.741 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:21:02.741 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:21:32.837 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:21:32.837 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:21:32.840 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:21:32.840 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:22:02.941 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:22:02.942 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:22:02.946 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:22:02.946 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:22:33.039 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:22:33.039 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:22:33.041 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:22:33.041 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:23:03.137 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:23:03.137 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:23:03.141 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:23:03.141 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:23:33.241 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:23:33.242 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:23:33.274 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:23:33.275 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:24:03.338 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:24:03.338 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:24:03.341 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:24:03.341 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:24:33.439 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:24:33.439 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:24:33.445 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:24:33.445 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:25:03.540 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:25:03.540 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:25:03.542 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:25:03.542 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:25:33.639 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:25:33.639 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:25:33.641 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:25:33.641 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:26:03.744 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:26:03.744 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:26:03.747 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:26:03.747 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:26:33.841 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:26:33.841 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:26:33.844 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:26:33.844 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:27:03.946 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:27:03.946 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:27:03.953 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:27:03.953 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:27:34.070 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:27:34.070 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:27:34.072 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:27:34.072 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:28:04.105 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:28:04.105 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:28:04.108 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:28:04.108 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:28:34.250 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:28:34.250 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:28:34.252 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:28:34.252 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:29:04.369 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:29:04.369 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:29:04.371 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:29:04.371 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:29:34.470 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:29:34.470 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:29:34.473 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:29:34.473 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:30:04.517 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:30:04.517 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:30:04.519 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:30:04.519 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:30:34.670 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:30:34.670 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:30:34.672 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:30:34.672 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:31:04.774 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:31:04.773 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:31:04.776 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:31:04.776 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:31:30.849 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:31:30.849 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:31:30.851 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:31:30.851 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:32:04.976 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:32:04.976 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:32:04.978 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:32:04.978 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:32:35.073 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:32:35.073 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:32:35.076 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:32:35.076 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:33:05.177 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:33:05.177 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:33:05.180 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:33:05.180 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:33:35.161 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:33:35.162 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:33:35.166 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:33:35.166 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:34:05.379 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:34:05.379 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:34:05.382 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:34:05.382 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:34:45.988 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:34:45.988 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 17:34:45.991 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 17:34:45.991 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:04:10.012 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:04:10.012 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:04:10.031 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:04:10.032 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:04:36.532 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:04:36.532 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:04:36.534 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:04:36.534 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:22:59.523 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:22:59.523 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:22:59.526 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:22:59.525 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:23:29.635 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:23:29.635 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:23:29.638 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:23:29.638 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:39:49.886 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:39:49.886 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:39:49.889 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:39:49.889 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:40:19.989 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:40:19.989 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 18:40:19.992 [ lettuce-nioEventLoop-4-3 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 18:40:19.992 [ lettuce-nioEventLoop-4-4 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 19:39:33.627 [ lettuce-eventExecutorLoop-1-2 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 19:39:33.627 [ lettuce-eventExecutorLoop-1-3 ] - [ INFO  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 171 ] - Reconnecting, last destination was localhost:6379
+2021-01-18 19:39:33.630 [ lettuce-nioEventLoop-4-2 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 19:39:33.630 [ lettuce-nioEventLoop-4-1 ] - [ WARN  ] [ io.lettuce.core.protocol.ConnectionWatchdog : 151 ] - Cannot reconnect to [localhost:6379]: Connection refused: localhost/127.0.0.1:6379
+2021-01-18 19:39:42.784 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1965 ] - {dataSource-1} closing ...
+2021-01-18 19:39:42.786 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 2037 ] - {dataSource-1} closed
